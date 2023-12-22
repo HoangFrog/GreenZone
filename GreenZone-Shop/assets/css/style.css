@@ -1,0 +1,448 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Quicksand;
+    scroll-behavior: smooth;
+}
+
+.clear
+{
+    clear:both
+}
+
+/* begin header */
+.header
+{
+    
+    margin: auto;
+    /* position: fixed;
+    width: 100%; */
+}
+
+.header .freeship
+{
+    
+    line-height: 37px;
+    background: #2a7d2e;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.menu-header
+{
+   display: flex;
+   height: 74px;
+   align-items: center;
+}
+
+.header .trademark
+{
+    margin-left: 84px;
+    margin-right: 128px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #2e2d2d;
+}
+
+.sub-menu {
+    z-index: 10;
+}
+
+.sub-menu>ul
+{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.sub-menu>ul>li
+{
+    position: relative;
+    display: inline-block;
+    margin-right: 24px;
+    font-size: 17px;
+}
+
+.sub-menu>ul>li>a
+{
+    text-decoration: none;
+    color: #2e2d2d;
+    /* padding: 12px; */
+    
+}
+
+.sub-menu>ul>li>ul
+{
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    margin-top: 15px;
+    display: none;
+
+}
+.sub-menu>ul>li>ul>li
+{
+    font-size: 17px;
+    border-top: 1px solid #ddd;
+    line-height: 30px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    background-color: #333;
+    padding-top: 12px;
+    width: 200px;
+}
+
+.sub-menu>ul>li>ul>li>a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sub-menu>ul>li:hover .sub-menu1 
+{
+    
+    display: block;
+}
+
+
+/* .sub-menu>ul>li>ul>li>ul
+{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    display: none;
+   
+}
+
+.sub-menu>ul>li>ul>li>ul>li
+{
+    position: absolute;
+    margin-left: 160px;
+    width: 150px;
+    height: 0px;
+    background: red;
+    margin-top: 8px;
+}
+
+.sub-menu>ul>li>ul>li>ul>li>a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sub-menu>ul>li>ul>li:hover .sub-menu2
+{
+    display: block;
+} */
+
+.menu-header .sub-menu-about
+{
+    margin-left: 134px;
+    font-size: 24px;
+}
+
+.menu-header .sub-menu-about .ti-search
+{
+    
+    margin-right: 8px;
+}
+
+.menu-header .sub-menu-about .ti-user
+{
+    
+    margin-right: 8px;
+}
+/* end header */
+
+
+/* begin sub-header */
+.sub-header 
+{
+    width: 100%;
+    background-color: #f5f5f5;
+    /* padding: 10px 0; */
+}
+
+.sub-header ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0 85px;
+}
+
+.sub-header ul li
+{
+    padding: 10px 8px;
+}
+
+.sub-header ul li a
+{
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+}
+/* end sub-header */
+
+/* begin banner */
+.banner img
+{
+    width: 100%;
+    height: 304px;
+}
+/* end banner */
+
+/* begin content */
+.content
+{
+    width: 100%;
+}
+
+.content .content-title .title
+{
+    float: left;
+    width: calc(100%/3);
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.content-main ul
+{
+    list-style: none;
+    padding: 0 85px;
+    margin-bottom: 78px;
+}
+
+.content-main ul li
+{
+    margin-top: 40px;
+    float: left;
+    width: 20%;
+}
+
+.content-main img
+{
+    width: 238px;
+    height: 238px;
+}
+
+.content-main ul li collection-text
+{
+    font-size: 14px;
+    font-family: Quicksand;
+}
+
+
+.content-main ul li a
+{
+    text-decoration: none;
+    line-height: 1.8;
+    color: #252a2b;
+    font-weight: 600;
+}
+
+.content-main ul li a:hover
+{
+    color: #2a7d2e;
+}
+
+
+/* end content */
+
+/* begin send-for-mail */
+.send-for-mail 
+{
+    display: flex;
+    height: 174px;
+    align-items: center;
+    margin: 0 30px; 
+}
+
+.send-for-mail .send-for-mail-text
+{
+    margin-right: 150px;
+    margin-left: 130px;
+    text-align: center;
+}
+
+.send-for-mail .send-for-mail-text h2
+{
+    margin-bottom: 6px;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.send-for-mail .send-for-mail-text
+{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #919191;
+}
+
+.send-for-mail .send-for-mail-btn .btn-email
+{
+    width: 450px;
+    height: 50px;
+    line-height: 25px;
+    color: #999999;
+    padding: 10px 20px;
+    border: 1px solid #d4d6d8;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.send-for-mail .send-for-mail-btn .btn-send
+{
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 99px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background-color: #2a7d2e;
+    cursor: pointer;
+}
+
+/* end send-for-mail */
+
+/* begin footer */
+footer {
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    /* background-color: black; */
+    
+}
+
+.footer-container {
+    width: 100%;
+    height: 100%;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-container {
+    padding: 0 15px;
+}
+
+.footer-title {
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.footer-introduce {
+    width: 415px;
+    height: 187px;
+    padding-left: 86px;
+}
+
+/* .footer-intro-content {
+    
+} */
+
+.footer-intro-content p {
+    white-space: wrap;
+    line-height: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.footer-intro-content.intro-content-img {
+    width: 100%;
+    height: 30%;
+}
+
+.gov-img {
+    width: 70%;
+}
+
+.footer-link {
+    width: 196px;
+    height: 188px;
+}
+
+/* .footer-link-content {
+
+} */
+
+.footer-link-content ul {
+    list-style-type: none;
+}
+
+.footer-link-content ul>li {
+    line-height: 1.5rem;
+    padding-bottom: 5px;
+}
+
+.footer-link-content ul>li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-contact {
+    width: 304px;
+    height: 200px;
+}
+
+.footer-contact .contact-address {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contact-content ul {
+    list-style-type: none;
+}
+
+.footer-contact-content ul>li {
+    margin-bottom: 10px;
+}
+
+.footer-contact-content ul>li span{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.footer-fanpage {
+    width: 304px;
+    height: 187px;
+    margin-right: 86px;
+}
+
+.footer-fanpage .footer-fanpage-content img
+{
+    width: 300px;
+    height: 150px;
+}
+
+/* end footer */
+
+/* begin nocoppy-right */
+.nocoppy-right
+{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* end nocoppy-right*/

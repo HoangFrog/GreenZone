@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenZone-Shop</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div class="main">
+        <!-- begin header -->
+        <div class="header">
+            <div class="freeship">
+                <span>Miễn phí vận chuyển với đơn hàng trên 300k</span>
+            </div>
+ 
+            <div class="menu-header">
+                 <div class="trademark"><a style="text-decoration: none;color: #333;" href="../GreenZone-Home/index.html">GreenZone</a></div>
+                 <div class="sub-menu">
+                     <ul>
+                         <li style=" width: 130px;">
+                             <a href="../GreenZone-Home/index.html">
+                             <span style="color: 2e2d2d;font-weight: 600;">
+                                 <span >Trang chủ</span>
+                                 
+                                 <!-- <i style="font-size: 10px;font-weight: bold;" class="ti-angle-down"></i> -->
+                             </span>
+                                 <!-- <ul class="sub-menu1">
+                                     <li><a href="#">Kiểu hiển thị header 1</a></li>
+                                     <li><a href="#">Kiểu hiển thị header 2</a></li>
+                                     <li><a href="#">Kiểu hiển thị header 3</a></li>
+                                  </ul> -->
+                             </a>
+                         </li>
+ 
+                         <!-- 128px -->
+                         <li style=" width: 128px;">
+                             <a href="../GreenZone-Shop/index.html" style="color: 2e2d2d;font-weight: 600;">
+                             Sản phẩm
+                             <!-- <i style="font-size: 10px;font-weight: bold;" class="ti-angle-down"></i> -->
+                                 <ul  class="sub-menu1">
+                                     <!-- <li><a href="#">Rau củ Đà Lạt</a></li>
+                                     <li>
+                                         <a href="#">
+                                         Trái cây nhập khẩu
+                                             <!-- <ul class="sub-menu2">
+                                                <li><a href="#">Trái cây hộp</a></li>
+                                                <li><a href="#">Trái cây tươi sạch</a></li>
+                                             </ul> -->
+                                         </a>
+                                     </li> -->
+                                     <!-- <li><a href="#">Khuyến mãi hôm nay</a></li> -->
+                                 </ul>
+                             </a>
+                             </li>
+ 
+                             <li style=" width: 149px;">
+                                 <a href="#" style="color: 2e2d2d;font-weight: 600;">
+                                 Product view
+                                      <!-- <i style="font-size: 10px;font-weight: bold;" class="ti-angle-down"></i> -->
+                                     <!-- <ul class="sub-menu1">
+                                         <li><a href="#">Product-style-01</a></li>
+                                         <li><a href="#">Product-style-02</a></li>
+                                         <li><a href="#">Product-style-03</a></li>
+                                     </ul> -->
+                                  </a>
+                              </li>
+ 
+                             <li style=" width: 66px;color: 2e2d2d;font-weight: 600;"><a href="">Blog</a></li>
+                             <li style=" width: 102px;color: 2e2d2d;font-weight: 600;"><a href="#">Giới thiệu</a></li>
+                             <li style=" width: 86px;color: 2e2d2d;font-weight: 600;"><a href="#">Liên hệ</a></li>
+                     </ul>
+                 </div>
+                 <div class="sub-menu-about">
+                     <i class="ti-search"></i>
+                     <i class="ti-user"></i>
+                     <i class="ti-shopping-cart"></i>
+                  </div>
+         </div>
+         </div>
+        <!-- end header -->
+
+        <!-- begin sub-header -->
+        <div class="sub-header">
+            <ul>
+                <li>
+                    <a href="#">Trang chủ</a>
+                </li>
+                <li>
+                    <span>/</span>
+                </li>
+                <li>
+                    <a href="#">Danh mục</a>
+                </li> 
+                <li>
+                    <span>/</span>
+                </li>
+                <li>
+                    <a href="#">Tất cả sản phẩm</a>
+                </li>
+            </ul>
+        </div>
+        <!-- end sub-header -->
+
+        <!-- begin banner -->
+        <div class="banner">
+            <img src="./assets/img/banner.jpg">
+        </div>
+        <!-- end banner -->
+        
+        <!-- begin content -->
+        <div class="content">
+            <div class="content-title">
+                <div style="font-size: 20px;color: #333;"  class="title">
+                     <a style="text-decoration: none;" href="#"><i style="padding: 4px;" class="ti-list-ol"></i></a>
+                     <span>Bộ lọc</span>
+                </div>  
+                <div class="title">
+                    <span style="font-size: 20px;font-weight: bold;">Tất cả sản phẩm</span>
+                </div>
+                <div style="height: 20px;font-size: 12px;color: #676767;border-radius: 4px;" class="title">
+                    <div class="collection-sortby">
+                        <div class="ti-control-shuffle" class="sortby-option browse-tags option">
+                            <label class="label-tt" for="sort-by">
+                                <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i>
+                            </label>
+                            <span class="custom-dropdown custom-dropdown--grey ">
+                                <select class="sort-by custom-dropdown__select boxstyle-mb" aria-label="sort-by">
+                                    <option value="price-ascending" data-filter="&amp;sortby=(price:product=asc)">Mới nhất</option>
+                                    <option value="price-descending" data-filter="&amp;sortby=(price:product=desc)">Giá: Giảm dần</option>
+                                    <option value="title-ascending" data-filter="&amp;sortby=(title:product=asc)">Tên: A-Z</option>
+                                    <option value="title-descending" data-filter="&amp;sortby=(price:product=desc)">Tên: Z-A</option>
+                                    <option value="created-ascending" data-filter="&amp;sortby=(updated_at:product=desc)">Cũ nhất</option>
+                                    <option value="created-descending" data-filter="&amp;sortby=(updated_at:product=asc)">Mới nhất</option>
+                                    <option value="best-selling" data-filter="&amp;sortby=(sold_quantity:product=desc)">Bán chạy nhất</option>
+                                    <option value="quantity-descending">Tồn kho: Giảm dần</option>
+                                </select>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="content-main">
+                <ul>
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp15.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="../GreenZone-Detail/index.html">Đu đủ Nam Bộ</a></p1></div>
+                            <div style="display: flex;">
+                                <span style="color: #f94c43;">50.000₫</span>
+                                <div style="margin-left: 15px;">
+                                    <span style="text-decoration: line-through;">99.000₫</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp2.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Dươi lưới Kiwami</a></p1></div>
+                            <div style="display: flex;">
+                                <span style="color: #f94c43;">100.000₫</span>
+                                <div style="margin-left: 15px;">
+                                    <span style="text-decoration: line-through;">139.000₫</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp3.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Kiwi vàng</a></p1></div>
+                            <div style="display: flex;">
+                                <span style="color: #f94c43;">110.000₫</span>
+                                <div style="margin-left: 15px;">
+                                    <span style="text-decoration: line-through;">199.000₫</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp4.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Bưởi da xanh hữu</a></p1></div>
+                            <div style="display: flex;">
+                                <span style="color: #f94c43;">150.000₫</span>
+                                <div style="margin-left: 15px;">
+                                    <span style="text-decoration: line-through;">170.000₫</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp5.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Ổi nữ hoàng</a></p1></div>
+                            <div style="display: flex;">
+                                <span style="color: #f94c43;">120.000₫</span>
+                                <div style="margin-left: 15px;">
+                                    <span style="text-decoration: line-through;">200.000₫</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp6.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Nho siêu ngọt</a></p1></div>
+                            <div><span>40.000₫</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp7.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Sầu riêng R16</a></p1></div>
+                            <div><span>65.000₫</span></div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp8.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Lê không hạt</a></p1></div>
+                            <div><span>50.000₫</span></div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp9.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Việt quất Mỹ</a></p1></div>
+                            <div><span>40.000₫</span></div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp10.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Măng cụt Thái Lan</a></p1></div>
+                            <div><span>100.000₫</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp11.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Dưa vàng</a></p1></div>
+                            <div><span>100.000₫</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp12.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Dâu tây Đà Lạt</a></p1></div>
+                            <div><span>100.000₫</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp13.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Xoài cát lộc</a></p1></div>
+                            <div><span>100.000₫</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp14.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Thanh long ruột đỏ</a></p1></div>
+                            <div><span>100.000₫</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp15.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Đu đủ miệt vườn</a></p1></div>
+                            <div><span>100.000₫</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp16.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Cherry Pháp</a></p1></div>
+                            <div><span>100.000₫</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collection-img">
+                            <img src="./assets/img/sp17.jpg">
+                        </div>
+                        <div class="collection-text">
+                            <div><p1><a href="#">Bưởi da xanh</a></p1></div>
+                            <div><span>100.000₫</span></div>
+                        </div>
+                    </li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+        </div>
+        <!-- end content -->
+
+        <!-- begin send-for-mail -->
+        <div class="send-for-mail">
+            <div  div class="send-for-mail-text">
+                <h2>Đăng kí nhận tin</h2>
+                <span>Đăng ký Email để theo dõi những sản phẩm được giảm giá của chúng tôi</span>
+            </div>
+            <div class="send-for-mail-btn">
+                <input class="btn-email" type="email" name="" placeholder="Email">
+                <input class="btn-send" type="submit" value="SEND">
+            </div>
+        </div>
+        <!-- end send-for-mail -->
+
+        <!-- begin footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-introduce">
+                    <div class="item-container intro-container">
+                        <div class="footer-title footer-intro-title">Giới thiệu</div>
+                        <div class="footer-intro-content">
+                            <p>Trang mua sắm trực tuyến trái cây sạch, giàu dinh dưỡng, không chất bảo quản, 100%
+                                được hái
+                                từ vườn nhà</p>
+                            <div class="intro-content-img">
+                                <a href=""><img class="gov-img" src="./assets/img/introduce.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-link">
+                    <div class="item-container link-container">
+                        <div class="footer-title footer-link-title">Liên kết</div>
+                        <div class="footer-link-content">
+                            <ul>
+                                <li class="item">
+                                    <a href="" class="link-search">Tìm kiếm</a>
+                                </li>
+                                <li class="item">
+                                    <a href="" class="link-introduce">Giới thiệu</a>
+                                </li>
+                                <li class="item">
+                                    <a href="" class="link-return">Chính sách đổi trả</a>
+                                </li>
+                                <li class="item">
+                                    <a href="" class="link-security">Chính sách bảo mật</a>
+                                </li>
+                                <li class="item">
+                                    <a href="" class="link-rules">Điều khoản dịch vụ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <div class="item-container contact-container">
+                        <div class="footer-title footer-contact-title">Thông tin liên hệ</div>
+                        <div class="footer-contact-content">
+                            <ul>
+                                <li class="item contact-address">
+                                    <i class="ti-location-pin"></i>
+                                    <span>Tầng 4, tòa nhà Flemington, số 182, đường Lê Đại Hành, phường 15, quận 11, Tp. Hồ Chí Minh.</span>
+                                </li>
+                                <li class="item contact-tel">
+                                    <i class="ti-headphone-alt"></i>
+                                    <span>1900.636.099</span>
+                                </li>
+                                <li class="item contact-phone">
+                                    <i class="ti-headphone-alt"></i>
+                                    <span>1900.636.099</span>
+                                </li>
+                                <li class="item contact-email">
+                                    <i class="ti-email"></i>
+                                    <span>hi@haravan.com</span>
+                                </li>
+
+                            </ul>
+
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-fanpage">
+                    <div class="item-container fanpage-container">
+                        <div class="footer-title footer-fanpage-title">Fanpage</div>
+                        <div class="footer-fanpage-content">
+                            <img src="./assets/img/footer.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+
+        <!-- begin nocoppy-right -->
+            <div class="nocoppy-right">
+                <p>Copyright © 2023 GreenZone. Powered by Gorf</p>
+            </div>
+        <!-- end nocoppy-right -->
+
+    </div>
+</body>
+</html>
